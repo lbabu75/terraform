@@ -1,5 +1,7 @@
 # Create public key from pem
+
 chmod 400 keypair.pem
+
 ssh-keygen -f keypair.pem -y > mypubkey.pub
 
 # Terrafrom setup
